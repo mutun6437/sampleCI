@@ -12,6 +12,6 @@ gulp.task("sass", function() {
 });
 
 
-gulp.task('default', ['coffee'], function() {
+gulp.task('default', ['sass'], function() {
   console.log('done');
 });
