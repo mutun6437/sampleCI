@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "mocha ./test/node.test.js"
   },
   "dependencies": {
     "express": "~4.8.6",
@@ -14,10 +14,9 @@
     "debug": "~1.0.4",
     "jade": "~1.5.0"
   },
-  "scripts": {
-    "test": "mocha ./test/node.test.js"
-  },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.2",
     "mocha": "~1.7.4"
   }
 }
