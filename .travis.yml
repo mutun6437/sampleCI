@@ -6,4 +6,4 @@ before_script:
 script:
   npm test
 script:
-  gulp　sass
+  gulp
