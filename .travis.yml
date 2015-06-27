@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - "0.10"
 script:
-  node -v
-  npm test
+  -"node -v"
+  -"npm test"
