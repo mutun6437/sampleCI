@@ -10,3 +10,8 @@ gulp.task("sass", function() {
         .pipe(sass())
         .pipe(gulp.dest("./public/stylesheets"));
 });
+
+
+gulp.task('default', ['coffee'], function() {
+  console.log('done');
+});
